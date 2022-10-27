@@ -1,0 +1,20 @@
+.student-table img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.student-table{
+    margin-bottom: 20px!important;
+}
+input#student-photo {
+    display: none;
+}
+img{
+    max-width: 100%;
+}
+img.upimage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+}
