@@ -64,7 +64,7 @@ const viewStudent =async (req,res) => {
      const viewId = req.params;
    
    const singleId =await User.findOne(viewId);
-   console.log(singleId);
+   
 
 
    res.render('singleView',{singleId})
